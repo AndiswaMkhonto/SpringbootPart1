@@ -1,19 +1,13 @@
-package com.example.demo;
+package com.example.spring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import sun.jvm.hotspot.utilities.Assert;
 
 @SpringBootTest
-class AndiswaApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
-
-	@Test
-	void addUserTest() {
-
 	}
 
 }
