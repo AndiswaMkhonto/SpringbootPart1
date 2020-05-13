@@ -17,17 +17,23 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void addUser(UUID id, String name, String surname) {
+    public String addUser(UUID id, String name, String surname) {
+         name = user.getName();
+        return "Hello "+ name;
 
     }
 
     @Override
-    public void removeUser(UUID Id) {
+    public String removeUser(UUID Id) {
         fakeRepo.deleteUser(Id);
+        String name = user.getName();
+        return name +" removed";
     }
 
     @Override
-    public void getUser(UUID Id) {
-        fakeRepo.findUserById(Id);
+    public String getUser(UUID Id) {
+        //User user = userServiceImpl.findUserById(id);
+        String name = user.getName();
+        return "Hello "+ name;
     }
 }

@@ -4,9 +4,9 @@ import java.util.UUID;
 
 public interface UserService {
 
-    public void addUser(UUID id,String name, String surname);
+    public String addUser(UUID id, String name, String surname);
 
-    public void removeUser(UUID Id);
+    public String removeUser(UUID Id);
 
-    public void getUser(UUID Id);
+    public String getUser(UUID Id);
 }
