@@ -1,10 +1,10 @@
-package com.example.spring;
+package com.springboot.recapcurrent;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class RecapcurrentApplicationTests {
 
 	@Test
 	void contextLoads() {
